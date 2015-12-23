@@ -1,0 +1,156 @@
+
+body{
+  background: white;
+}
+header{
+  position: fixed;
+  top:-2px;
+  width:100%;
+  background: white;
+  height:63px;
+  z-index: 2;
+}
+.header{
+  position: relative;
+  padding-top: 6px;
+  padding-left:300px;
+  width:100%;
+}
+.logo{
+  width:100px;
+}
+.line_images{
+  position: relative;
+  left:750px;
+  top:-50px;
+  width:50px;
+}
+.line1{
+  position: absolute;
+}
+.line2{
+  position: absolute;
+  display:none;
+}
+.buy_images{
+  position: relative;
+  left:820px;
+  top:-50px;
+  width:50px;
+}
+.buy1{
+  position: absolute;
+}
+.buy2{
+  position: absolute;
+  display:none;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-controls{
+  margin-top: -50px;
+}
+.product_detail{
+  width:100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.lb_product>img{
+  width:300px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.video{
+  background-image:url('../images/video_bg.jpg');
+　background-repeat:no-repeat;
+  text-align: center;
+  width:100%;
+  height:600px;
+  background-attachment: fixed;
+}
+.iframe_video{
+  margin-top: 50px;
+}
+.hair{
+  height:100%;
+  position: relative;
+  width:800px;
+  margin:auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.show_pic{
+  width:627px;
+  height:728px;
+  float:left;
+  margin-right: 20px;
+}
+.big_pic{
+  position: absolute;
+}
+.hidden{
+  display:none;
+}
+.big_pic.active{
+  display:inline;
+}
+.black_mask{
+  position: absolute;
+  width:78px;
+  height:78px;
+  background: black;
+  opacity: 0.2;
+}
+.black_mask:hover{
+  opacity: 0;
+}
+.active{
+  opacity: 0;
+}
+.small_pic{
+  float:left;
+  width:100px;
+}
+.small_pic>a>img{
+  margin-bottom:40px;
+  width:80px;
+  height:80px;
+}
+.footer{
+  float:left;
+  text-align: center;
+  width:100%;
+  height:464px;
+  background: #d17d95;
+}
+.footer_text{
+  margin-top: 10px;
+}
+.footer_other{
+  position: relative;
+}
+.footer_other>a>img{
+  position: absolute;
+}
+.footer_other>img{
+  position: absolute;
+}
+.line_gif{
+  width:199px;
+  height:214px;
+  left:570px;
+  top:-10px;
+}
+.phone{
+  left:800px;
+}
+.line_cus{
+  left:800px;
+  top:80px;
+}
